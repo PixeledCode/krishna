@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { getDocument } from "./client";
 import type { Homepage } from "./types/homepage";
 import Image from "next/image";
+import { toast } from "sonner";
 
 const Link = ({
   href,
@@ -166,9 +167,24 @@ function App() {
                 {data?.footerText}
               </p>
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 sm:items-center mt-9 sm:text-xl">
-                <a href={data?.linkedIn}>LinkedIn</a>
+                <a href={data?.linkedIn} className="hover:underline">
+                  LinkedIn
+                </a>
                 <span className="h-[18px] w-0.5 bg-bg hidden sm:block" />
-                <a href={`emailto:${data?.email}`}>{data?.email}</a>
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (data?.email) {
+                      navigator.clipboard.writeText(data?.email);
+                      toast.success("Email is copied to clipboard");
+                    } else {
+                      toast.error("Error copying email");
+                    }
+                  }}
+                  className="hover:underline"
+                >
+                  {data?.email}
+                </button>
               </div>
             </div>
             <Image

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Karma, Lato, Nunito } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const karma = Karma({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body
         className={`${karma.variable} ${lato.variable} ${nunito.variable} antialiased`}
       >
+        <Toaster richColors closeButton />
         {children}
       </body>
     </html>
