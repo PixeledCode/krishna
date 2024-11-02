@@ -12,53 +12,9 @@ export const siteSettings = defineType({
       readOnly: true,
     }),
     defineField({
-      name: "headingText",
-      title: "Heading text",
-      type: "text",
-    }),
-    defineField({
-      name: "projectTitle",
-      title: "Project title",
+      name: "resume",
+      title: "Resume link",
       type: "string",
-    }),
-    defineField({
-      name: "projectText",
-      title: "Project text",
-      type: "text",
-    }),
-    defineField({
-      name: "projectCards",
-      title: "Project cards",
-      type: "array",
-      of: [
-        {
-          title: "Actor name",
-          type: "object",
-          fields: [
-            {
-              title: "Image",
-              name: "image",
-              type: "image",
-            },
-            {
-              title: "Brand",
-              name: "brand",
-              type: "string",
-            },
-            {
-              title: "Title",
-              name: "title",
-              type: "string",
-            },
-            {
-              title: "Tags",
-              name: "tags",
-              type: "array",
-              of: [{ type: "string" }],
-            },
-          ],
-        },
-      ],
     }),
     defineField({
       name: "footerText",

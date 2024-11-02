@@ -15,6 +15,6 @@ export function urlFor(source: string) {
 }
 
 export async function getDocument() {
-  const document = await client.fetch('*[title == "Krishna"][0]');
+  const document = await client.fetch('*[_type == "homepage"][0]');
   return document;
 }

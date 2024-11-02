@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import type { Image } from "../types/homepage";
 import { urlFor } from "../client";
