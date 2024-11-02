@@ -1,0 +1,96 @@
+[
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "resume",
+        "type": "string",
+        "title": "Resume link"
+      },
+      {
+        "name": "footerText",
+        "type": "text",
+        "title": "Footer text"
+      },
+      {
+        "name": "linkedIn",
+        "type": "string",
+        "title": "LinkedIn URL"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "credits",
+        "type": "string"
+      }
+    ],
+    "name": "siteSettings",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "headingText",
+        "type": "text",
+        "title": "Heading text"
+      },
+      {
+        "name": "projectTitle",
+        "type": "string",
+        "title": "Project title"
+      },
+      {
+        "name": "projectText",
+        "type": "text",
+        "title": "Project text"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "image",
+                "type": "image"
+              },
+              {
+                "name": "brand",
+                "type": "string"
+              },
+              {
+                "name": "title",
+                "type": "string"
+              },
+              {
+                "of": [
+                  {
+                    "type": "string"
+                  }
+                ],
+                "name": "tags",
+                "type": "array"
+              }
+            ],
+            "type": "object",
+            "title": "Actor name"
+          }
+        ],
+        "name": "projectCards",
+        "type": "array",
+        "title": "Project cards"
+      }
+    ],
+    "name": "homepage",
+    "type": "document"
+  }
+]
