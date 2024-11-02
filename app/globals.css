@@ -34,9 +34,11 @@ body {
     -webkit-text-fill-color 0.2s;
 }
 
-.outline-text:hover {
-  -webkit-text-stroke: 3px var(--color-dark);
-  -webkit-text-fill-color: white;
+@media (min-width: 640px) {
+  .outline-text:hover {
+    -webkit-text-stroke: 3px var(--color-dark);
+    -webkit-text-fill-color: white;
+  }
 }
 
 .link {

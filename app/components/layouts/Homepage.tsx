@@ -13,7 +13,7 @@ export const Homepage = ({ data }: { data: Types }) => {
               Digital Product Designer <br />
             </span>
             based in{" "}
-            <span className="hover:text-primary transition-colors duration-200">
+            <span className="sm:hover:text-primary transition-colors duration-200">
               Bangalore.
             </span>
           </h1>
