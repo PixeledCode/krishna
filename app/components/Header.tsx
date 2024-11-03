@@ -57,7 +57,7 @@ export const Header = ({ resumeLink }: { resumeLink: string }) => {
       </motion.a>
 
       <ul className="flex gap-4 sm:gap-10 sm:text-xl">
-        <Link href="#projects">Work</Link>
+        <Link href="/#projects">Work</Link>
         <Link href="/about">About</Link>
         <Link href={resumeLink}>Resume</Link>
       </ul>
