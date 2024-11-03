@@ -9,6 +9,8 @@
   --color-dark: #667d17;
   --color-text: #000000;
   --color-text-on-bg: #ffffff;
+  --color-separator: #cccccc;
+  --color-red: #da0505;
 }
 
 html {

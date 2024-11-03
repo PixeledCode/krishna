@@ -26,6 +26,8 @@ const config: Config = {
         dark: "var(--color-dark)",
         text: "var(--color-text)",
         "text-on-bg": "var(--color-text-on-bg)",
+        separator: "var(--color-separator)",
+        red: "var(--color-red)",
       },
       maxWidth: {
         240: "992px",
