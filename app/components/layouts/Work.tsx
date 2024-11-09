@@ -216,7 +216,7 @@ export default function Work() {
           <h2 className="font-display text-2xl">Short on time? No problem!</h2>
           <button
             type="button"
-            className="uppercase font-lato leading-none py-4 px-8 rounded-full border-[2px] border-solid border-primary text-primary text-xl font-bold mt-6"
+            className="uppercase font-lato leading-none py-3 px-4 sm:py-4 sm:px-6 rounded-full border-[2px] border-solid border-primary text-primary sm:text-xl font-bold mt-6"
           >
             skip to final designs
           </button>
@@ -614,9 +614,9 @@ export default function Work() {
             alt=""
             width={496}
             height={253}
-            className="w-full max-w-[496px]"
+            className="w-full max-w-80 sm:max-w-[496px]"
           />
-          <span className="mt-4 mb-6 font-bold text-2xl">
+          <span className="mt-4 mb-6 font-bold sm:text-2xl">
             You made it till the end of the case-study!
           </span>
           <button
@@ -624,7 +624,7 @@ export default function Work() {
             onClick={() => {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="uppercase font-lato leading-none py-4 px-8 rounded-full border-[2px] border-solid border-primary text-primary text-xl font-bold"
+            className="uppercase font-lato leading-none py-3 px-4 sm:py-4 sm:px-6 rounded-full border-[2px] border-solid border-primary text-primary sm:text-xl font-bold"
           >
             BACK to top
           </button>
@@ -639,10 +639,10 @@ export default function Work() {
               <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
                 IMAGE HERE
               </div>
-              <span className="mt-6 block font-semibold uppercase">
+              <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
                 Deutsche Telekom
               </span>
-              <p className="font-display text-2xl leading-display mt-3">
+              <p className="font-display text-lg sm:text-2xl leading-display mt-3">
                 Empowering Every User: Solving Accessibility Challenges in Smart
                 Home Technology
               </p>
@@ -652,10 +652,10 @@ export default function Work() {
               <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
                 IMAGE HERE
               </div>
-              <span className="mt-6 block font-semibold uppercase">
+              <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
                 Innovapptive
               </span>
-              <p className="font-display text-2xl leading-display mt-3">
+              <p className="font-display text-lg sm:text-2xl leading-display mt-3">
                 Creating custom icons for the application
               </p>
             </article>

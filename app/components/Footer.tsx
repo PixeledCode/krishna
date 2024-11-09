@@ -46,7 +46,7 @@ export const Footer = ({
             <p className="font-display leading-display text-lg sm:text-3xl">
               {data?.footerText}
             </p>
-            <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 sm:items-center mt-9 sm:text-xl">
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 sm:items-center mt-9 sm:text-xl items-start">
               <a href={data?.linkedIn} className="hover:underline">
                 LinkedIn
               </a>
