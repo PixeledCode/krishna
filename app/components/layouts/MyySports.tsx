@@ -1,48 +1,17 @@
 "use client";
 
-import { CrossIcon } from "@/app/assets/CrossIcon";
-import { cn } from "@/app/utils";
 import Image from "next/image";
-
-const Heading = ({
-  children,
-  as,
-}: {
-  children: React.ReactNode;
-  as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
-}) => {
-  const Component = as || "h2";
-  return <Component className="uppercase font-semibold">{children}</Component>;
-};
-
-const SubHeading = ({ children }: { children: React.ReactNode }) => (
-  <h3 className="uppercase">{children}</h3>
-);
-
-const HeadingText = ({ children }: { children: React.ReactNode }) => (
-  <p className="text-2xl sm:text-4xl font-display leading-display">
-    {children}
-  </p>
-);
-
-const Paragraph = ({ children }: { children: React.ReactNode }) => (
-  <p className="text-xl">{children}</p>
-);
-
-const List = ({ children }: { children: React.ReactNode }) => (
-  <ul className="list-disc pl-5 flex flex-col gap-3">{children}</ul>
-);
-
-const ListItem = ({ children }: { children: React.ReactNode }) => (
-  <li>{children}</li>
-);
-
-const Pill = ({ children }: { children: React.ReactNode }) => (
-  <span className="py-2 px-4 flex items-center gap-2 border border-solid border-primary w-fit rounded-3xl">
-    <CrossIcon />
-    <span className="text-sm"> {children}</span>
-  </span>
-);
+import {
+  Card,
+  Heading,
+  HeadingText,
+  List,
+  ListItem,
+  Paragraph,
+  Pill,
+  Separator,
+  SubHeading,
+} from "./Common";
 
 export default function Work() {
   return (
@@ -216,6 +185,11 @@ export default function Work() {
           <h2 className="font-display text-2xl">Short on time? No problem!</h2>
           <button
             type="button"
+            onClick={() => {
+              document
+                .getElementById("final-design")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="uppercase font-lato leading-none py-3 px-4 sm:py-4 sm:px-6 rounded-full border-[2px] border-solid border-primary text-primary sm:text-xl font-bold mt-6"
           >
             skip to final designs
@@ -310,7 +284,7 @@ export default function Work() {
                 </List>
               </div>
             </div>
-            <div className="mt-16">
+            <div className="mt-10">
               <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
                 IMAGE HERE
               </div>
@@ -491,13 +465,14 @@ export default function Work() {
           </div>
         </section>
 
-        {/* Research */}
+        {/* wireframes */}
         <section className="bg-light py-32 mt-24">
           <div className="container max-w-240">
-            <Heading>Research</Heading>
+            <Heading>wireframes</Heading>
             <div className="mt-4">
               <HeadingText>Initial Conceptual Designs</HeadingText>
             </div>
+
             <div className="mt-6">
               <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
                 IMAGE HERE
@@ -538,7 +513,7 @@ export default function Work() {
         </section>
 
         {/* Final Design */}
-        <section className="mt-32 container max-w-240">
+        <section className="mt-32 container max-w-240" id="final-design">
           <Heading>final design</Heading>
           <div className="mt-4">
             <HeadingText>
@@ -633,6 +608,7 @@ export default function Work() {
         {/* More Projects */}
         <section className="mt-32 container max-w-240">
           <HeadingText>More Projects</HeadingText>
+          <div className="mt-2 w-full h-[1px] bg-primary" />
 
           <div className="mt-8 grid auto-fit-[300px] gap-6">
             <article className="md:max-w-[468px]">
@@ -665,25 +641,3 @@ export default function Work() {
     </main>
   );
 }
-
-const Separator = ({
-  className,
-  orientation = "horizontal",
-}: {
-  className?: string;
-  orientation?: "horizontal" | "vertical";
-}) => (
-  <div
-    className={cn(
-      "h-[1px] w-full bg-separator",
-      orientation === "vertical" && "w-0.5 h-full min-h-8",
-      className
-    )}
-  />
-);
-
-const Card = ({ children }: { children: React.ReactNode }) => (
-  <div className="bg-[rgba(247,75,1,0.6)] p-6 font-semibold border border-primary rounded-2xl">
-    {children}
-  </div>
-);

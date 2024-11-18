@@ -28,6 +28,7 @@ const config: Config = {
         "text-on-bg": "var(--color-text-on-bg)",
         separator: "var(--color-separator)",
         red: "var(--color-red)",
+        kotak: "var(--color-kotak)",
       },
       maxWidth: {
         240: "992px",
