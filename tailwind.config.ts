@@ -29,6 +29,7 @@ const config: Config = {
         separator: "var(--color-separator)",
         red: "var(--color-red)",
         kotak: "var(--color-kotak)",
+        deutche: "var(--color-deutche)",
       },
       maxWidth: {
         240: "992px",

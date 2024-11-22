@@ -71,6 +71,7 @@ export const Footer = ({
             width={128}
             height={150}
             src="/cup.gif"
+            unoptimized
             alt=""
             className="w-32 hidden sm:block"
           />

@@ -13,6 +13,7 @@
   --color-red: #da0505;
 
   --color-kotak: #438bde;
+  --color-deutche: #050004;
 }
 
 html {
@@ -24,6 +25,7 @@ body {
   color: var(--color-text);
   font-family: var(--font-body);
   text-wrap: pretty;
+  font-size: 1.25rem;
 }
 
 @layer utilities {
@@ -66,4 +68,13 @@ body {
 
 .cursor {
   cursor: url("/cursor.png"), auto;
+}
+
+.gradient {
+  background: radial-gradient(
+    ellipse at left top,
+    #d4080a 0%,
+    #131e45 27%,
+    #050004 100%
+  );
 }
