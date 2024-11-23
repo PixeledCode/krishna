@@ -108,9 +108,13 @@ export default function Work() {
               </div>
             </div>
             <div className="mt-16">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image
+                src="/kotak/1.png"
+                width={960}
+                height={930}
+                alt=""
+                className="w-full object-cover"
+              />
             </div>
           </section>
 
@@ -135,13 +139,8 @@ export default function Work() {
                   designed to enhance their efficiency and effectiveness in
                   providing financial guidance and support to their clients.
                 </Paragraph>
-                <div className="hidden sm:flex flex-col gap-7">
-                  <div className="w-32 h-32 flex items-center justify-center bg-[#438BDE] rounded-full">
-                    <Image src="/card.png" alt="" width={76} height={98} />
-                  </div>
-                  <div className="w-32 h-32 flex items-center justify-center bg-[#438BDE] rounded-full">
-                    <Image src="/card.png" alt="" width={76} height={98} />
-                  </div>
+                <div className="hidden sm:block shrink-0">
+                  <Image src="/kotak/2.png" alt="" width={135} height={299} />
                 </div>
               </div>
             </div>
@@ -221,9 +220,7 @@ export default function Work() {
               </div>
             </div>
             <div className="mt-6">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/kotak/3.png" alt="" width={960} height={490} />
             </div>
           </section>
 
@@ -259,9 +256,7 @@ export default function Work() {
                 </List>
               </div>
               <div className="mt-6">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image src="/kotak/4.png" alt="" width={960} height={1084} />
               </div>
             </div>
           </section>
@@ -281,9 +276,7 @@ export default function Work() {
               </Paragraph>
             </div>
             <div className="mt-6">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/kotak/5.png" alt="" width={960} height={870} />
             </div>
           </section>
 
@@ -302,17 +295,15 @@ export default function Work() {
                 We went ahead with <strong>mobile-first approach</strong>.
               </Paragraph>
             </div>
-            <div className="mt-6">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+            <div className="mt-12">
+              <Image src="/kotak/6.png" alt="" width={960} height={955} />
             </div>
           </section>
 
           {/* Visual Design */}
-          <section className="bg-light pb-16 pt-16 sm:pt-32 mt-10">
+          <section className="bg-light pb-16 pt-16 sm:pt-32 mt-10" id="design">
             <div className="container max-w-240">
-              .<SubHeading>visual design</SubHeading>
+              <SubHeading>visual design</SubHeading>
               <div className="mt-4">
                 <HeadingText>Style Guide</HeadingText>
               </div>
@@ -329,31 +320,27 @@ export default function Work() {
                 </Paragraph>
               </div>
               <div className="mt-16">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image src="/kotak/7.png" alt="" width={960} height={1404} />
               </div>
               <div className="mt-32">
                 <HeadingText>Design System</HeadingText>
                 <div className="mt-8">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/kotak/8.png" alt="" width={960} height={820} />
                 </div>
               </div>
             </div>
           </section>
 
           {/* Final Design */}
-          <section className="pt-32" id="design">
-            <div className="container max-w-240">
+          <section className="pt-32">
+            <div className="">
               <Heading>final design</Heading>
-              <div className="mt-4">
+              <div className="mt-4 container max-w-240">
                 <HeadingText>Intuitive, scalable solution</HeadingText>
               </div>
-              <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
+              <div className="mt-10 bg-kotak py-24">
+                <div className="container max-w-240">
+                  <Image src="/kotak/9.png" alt="" width={960} height={1950} />
                 </div>
               </div>
             </div>
@@ -362,9 +349,7 @@ export default function Work() {
               <div className="container max-w-240">
                 <HeadingText>Dashboard Components</HeadingText>
                 <div className="mt-10">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/kotak/10.png" alt="" width={960} height={1160} />
                 </div>
               </div>
             </div>
@@ -373,9 +358,7 @@ export default function Work() {
               <div className="container max-w-240">
                 <HeadingText>Goal completion</HeadingText>
                 <div className="mt-10">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/kotak/11.png" alt="" width={960} height={680} />
                 </div>
               </div>
             </div>
@@ -384,9 +367,7 @@ export default function Work() {
               <div className="container max-w-240">
                 <HeadingText>Transaction</HeadingText>
                 <div className="mt-10">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/kotak/12.png" alt="" width={960} height={776} />
                 </div>
               </div>
             </div>
@@ -395,9 +376,7 @@ export default function Work() {
               <div className="container max-w-240">
                 <HeadingText>Opportunity</HeadingText>
                 <div className="mt-10">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/kotak/13.png" alt="" width={960} height={1090} />
                 </div>
               </div>
             </div>
@@ -412,9 +391,12 @@ export default function Work() {
               </div>
               <div className="mt-8 flex flex-col gap-8">
                 <div className="flex gap-2 items-start">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                  <Image
+                    src="/kotak/icon-1.svg"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
                   <div>
                     <span className="font-bold text-2xl">
                       Get feedback early
@@ -426,10 +408,14 @@ export default function Work() {
                   </div>
                 </div>
 
-                <div className="flex gap-2">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                <div className="flex gap-2 items-start">
+                  <Image
+                    src="/kotak/icon-2.svg"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
+
                   <div>
                     <span className="font-bold text-2xl">
                       Go back to basics
@@ -444,10 +430,13 @@ export default function Work() {
                   </div>
                 </div>
 
-                <div className="flex gap-2">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                <div className="flex gap-2 items-start">
+                  <Image
+                    src="/kotak/icon-3.svg"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
                   <div>
                     <span className="font-bold text-2xl">Take command</span>
                     <p className="mt-1">
