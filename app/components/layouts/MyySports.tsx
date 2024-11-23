@@ -104,9 +104,7 @@ export default function Work() {
               </div>
             </div>
             <div className="mt-16">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/myysports/1.png" alt="" width={960} height={554} />
             </div>
           </section>
 
@@ -138,50 +136,7 @@ export default function Work() {
             </div>
 
             <div className="mt-6 grid auto-fit-[280px] gap-6">
-              <article className="flex flex-col justify-center items-center bg-light p-6 rounded-3xl flex-grow ">
-                <div className="w-32 h-32 flex items-center justify-center bg-[#3CBDD3] rounded-full">
-                  <Image src="/card.png" alt="" width={76} height={98} />
-                </div>
-                <span className="flex justify-center py-2 bg-[#3CBDD3] mt-4 rounded-lg uppercase font-bold w-full">
-                  PLAYER
-                </span>
-                <ul className="list-disc mt-6 pl-5 text-sm">
-                  <li>Setup their account</li>
-                  <li>Update their stats</li>
-                  <li>Showcase their skills</li>
-                  <li>Gain followers/supporters</li>
-                </ul>
-              </article>
-
-              <article className="flex flex-col justify-center items-center bg-light p-6 rounded-3xl flex-grow">
-                <div className="w-32 h-32 flex items-center justify-center bg-[#3CBDD3] rounded-full">
-                  <Image src="/card.png" alt="" width={76} height={98} />
-                </div>
-                <span className="flex justify-center py-2 bg-[#3CBDD3] mt-4 rounded-lg uppercase font-bold w-full">
-                  PLAYER
-                </span>
-                <ul className="list-disc mt-6 pl-5 text-sm">
-                  <li>Watch the matches </li>
-                  <li>Support their favourite team/player</li>
-                  <li>Interact with other viewers</li>
-                </ul>
-              </article>
-
-              <article className="flex flex-col justify-center items-center bg-light p-6 rounded-3xl flex-grow">
-                <div className="w-32 h-32 flex items-center justify-center bg-[#3CBDD3] rounded-full">
-                  <Image src="/card.png" alt="" width={76} height={98} />
-                </div>
-                <span className="flex justify-center py-2 bg-[#3CBDD3] mt-4 rounded-lg uppercase font-bold w-full">
-                  PLAYER
-                </span>
-                <ul className="list-disc mt-6 pl-5 text-sm">
-                  <li>
-                    Create content ( reel, videos, shows, matches, tournament )
-                  </li>
-                  <li>Organise matches</li>
-                  <li>Create and manage teams</li>
-                </ul>
-              </article>
+              <Image src="/myysports/2.png" alt="" width={960} height={338} />
             </div>
           </section>
 
@@ -256,9 +211,7 @@ export default function Work() {
               </div>
             </div>
             <div className="mt-6">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/myysports/3.png" alt="" width={960} height={750} />
             </div>
           </section>
 
@@ -293,9 +246,7 @@ export default function Work() {
                 </div>
               </div>
               <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image src="/myysports/4.png" alt="" width={960} height={468} />
               </div>
 
               <div className="mt-24">
@@ -355,35 +306,7 @@ export default function Work() {
             </div>
             <div className="mt-10">
               <div className="flex justify-around gap-6 flex-wrap">
-                <div className="flex flex-col items-center">
-                  <span className="font-bold uppercase text-xl">
-                    DIRECT COMPETITORS
-                  </span>
-
-                  <div className="mt-6 flex gap-8">
-                    <div className="w-32 h-32 bg-light rounded-full flex items-center justify-center">
-                      IMAGE HERE
-                    </div>
-                    <div className="w-32 h-32 bg-light rounded-full flex items-center justify-center">
-                      IMAGE HERE
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex flex-col items-center">
-                  <span className="font-bold uppercase text-xl">
-                    INDIRECT COMPETITORS
-                  </span>
-
-                  <div className="mt-6 flex gap-8">
-                    <div className="w-32 h-32 bg-light rounded-full flex items-center justify-center">
-                      IMAGE HERE
-                    </div>
-                    <div className="w-32 h-32 bg-light rounded-full flex items-center justify-center">
-                      IMAGE HERE
-                    </div>
-                  </div>
-                </div>
+                <Image src="/myysports/5.png" alt="" width={705} height={171} />
               </div>
             </div>
 
@@ -484,9 +407,14 @@ export default function Work() {
               </List>
             </div>
             <div className="mt-16">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/myysports/6.png" alt="" width={960} height={182} />
+              <Image
+                src="/myysports/6-b.png"
+                alt=""
+                width={960}
+                height={1055}
+                className="mt-6"
+              />
             </div>
           </section>
 
@@ -499,9 +427,12 @@ export default function Work() {
               </div>
 
               <div className="mt-6">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image
+                  src="/myysports/7.png"
+                  alt=""
+                  width={960}
+                  height={3894}
+                />
               </div>
             </div>
           </section>
@@ -524,45 +455,59 @@ export default function Work() {
               </Paragraph>
             </div>
             <div className="mt-16">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/myysports/8.png" alt="" width={960} height={507} />
             </div>
             <div className="mt-32">
               <HeadingText>Design System & Style Guide</HeadingText>
               <div className="mt-8">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image src="/myysports/9.png" alt="" width={960} height={781} />
               </div>
             </div>
           </section>
 
           {/* Final Design */}
-          <section className="pt-32 container max-w-240" id="design">
-            <Heading>final design</Heading>
-            <div className="mt-4">
-              <HeadingText>
-                The Ultimate Sports Entertainment Experience
-              </HeadingText>
-            </div>
-            <div className="mt-10">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
+          <section className="pt-32 " id="design">
+            <div className="container max-w-240">
+              <Heading>final design</Heading>
+              <div className="mt-4">
+                <HeadingText>
+                  The Ultimate Sports Entertainment Experience
+                </HeadingText>
               </div>
             </div>
-            <div className="mt-32">
-              <HeadingText>Design System & Style Guide</HeadingText>
-              <div className="mt-8">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
+            <div className="mt-10">
+              <Image
+                src="/myysports/10.png"
+                alt=""
+                width={1440}
+                height={1002}
+                className="w-full"
+              />
+            </div>
+            <div className="bg-light py-32 pb-16">
+              <div className="container max-w-240">
+                <HeadingText>Homepage</HeadingText>
+                <div className="mt-10">
+                  <Image
+                    src="/myysports/11.png"
+                    alt=""
+                    width={960}
+                    height={812}
+                  />
                 </div>
               </div>
             </div>
+            <Image
+              src="/myysports/12.png"
+              alt=""
+              width={1440}
+              height={1598}
+              className="w-full"
+            />
           </section>
 
           {/* Takeaway */}
-          <section className="bg-light py-32 mt-24" id="takeaway">
+          <section className="bg-light py-32" id="takeaway">
             <div className="container max-w-240">
               <Heading>Takeaway</Heading>
               <div className="mt-4">
@@ -570,9 +515,12 @@ export default function Work() {
               </div>
               <div className="mt-8 flex flex-col gap-8">
                 <div className="flex gap-2 items-start">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                  <Image
+                    src="/myysports/icon-1.svg"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
                   <div>
                     <span className="font-bold text-2xl">
                       Improving User Interview Techniques
@@ -588,10 +536,13 @@ export default function Work() {
                   </div>
                 </div>
 
-                <div className="flex gap-2">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                <div className="flex gap-2 items-start">
+                  <Image
+                    src="/myysports/icon-2.svg"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
                   <div>
                     <span className="font-bold text-2xl">
                       Setting expectations
