@@ -90,9 +90,12 @@ export default function Work() {
                 terms, resulting in ambiguity.
               </p>
               <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image
+                  src="/innovapptive/1.png"
+                  alt=""
+                  width={960}
+                  height={417}
+                />
               </div>
             </div>
           </section>
@@ -174,9 +177,12 @@ export default function Work() {
               </div>
             </div>
             <div className="mt-6">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image
+                src="/innovapptive/2.png"
+                alt=""
+                width={960}
+                height={526}
+              />
             </div>
           </section>
 
@@ -198,9 +204,12 @@ export default function Work() {
                 </Paragraph>
               </div>
               <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image
+                  src="/innovapptive/3.png"
+                  alt=""
+                  width={960}
+                  height={307}
+                />
               </div>
 
               <div className="mt-24">
@@ -214,18 +223,24 @@ export default function Work() {
                 </Paragraph>
               </div>
               <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image
+                  src="/innovapptive/4.png"
+                  alt=""
+                  width={960}
+                  height={623}
+                />
               </div>
 
               <div className="mt-24">
                 <HeadingText>Usage</HeadingText>
               </div>
               <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image
+                  src="/innovapptive/5.png"
+                  alt=""
+                  width={530}
+                  height={627}
+                />
               </div>
             </div>
           </section>
@@ -242,9 +257,12 @@ export default function Work() {
             <div className="py-28 bg-innovapptive mt-10">
               <div className="container max-w-240">
                 <div className="mt-6">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image
+                    src="/innovapptive/6.png"
+                    alt=""
+                    width={960}
+                    height={1745}
+                  />
                 </div>
               </div>
             </div>
@@ -259,9 +277,13 @@ export default function Work() {
               </div>
               <div className="mt-8 flex flex-col gap-8">
                 <div className="flex gap-2 items-start">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                  <Image
+                    src="/innovapptive/icon-1.svg"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
+
                   <div>
                     <span className="font-bold text-2xl">
                       Designing icons from scratch
@@ -275,10 +297,14 @@ export default function Work() {
                   </div>
                 </div>
 
-                <div className="flex gap-2">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                <div className="flex gap-2 items-start">
+                  <Image
+                    src="/innovapptive/icon-2.png"
+                    alt=""
+                    width={36}
+                    height={36}
+                  />
+
                   <div>
                     <span className="font-bold text-2xl">
                       Importance of having relevant icons

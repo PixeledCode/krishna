@@ -25,7 +25,7 @@ export default function Work() {
         Enthusiasts
       </h1>
       <Image
-        src="/frame.png"
+        src="/myysport_frame.png"
         width={1440}
         height={720}
         alt=""
