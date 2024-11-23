@@ -30,6 +30,7 @@ const config: Config = {
         red: "var(--color-red)",
         kotak: "var(--color-kotak)",
         deutche: "var(--color-deutche)",
+        innovapptive: "var(--color-innovapptive)",
       },
       maxWidth: {
         240: "992px",

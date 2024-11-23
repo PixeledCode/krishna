@@ -41,7 +41,9 @@ export const Homepage = ({ data }: { data: Types }) => {
           >
             {data?.projectTitle}
           </h2>
-          <p className="sm:text-xl whitespace-pre-line">{data?.projectText}</p>
+          <p className="sm:text-xl whitespace-pre-line mt-2">
+            {data?.projectText}
+          </p>
           <div className="mt-8 sm:mt-16 grid gap-6 auto-fit-[320px]">
             {data?.projectCards?.map((card) => (
               <Card

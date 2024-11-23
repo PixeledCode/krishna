@@ -19,7 +19,7 @@ export default function Work() {
   return (
     <div className="mt-12 mb-32">
       <div className="flex justify-center">
-        <Image src="/kotak.png" width={109} height={32} alt="" />
+        <Image src="/kotak.png" width={108} height={36} alt="" />
       </div>
       <h1 className="text-xl sm:text-4xl font-display sm:leading-display text-center max-w-240 container mt-6">
         Streamlining Mutual Fund Advisor Portal: Simplifying Access, Enhancing
