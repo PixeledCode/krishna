@@ -21,7 +21,7 @@ export const Footer = ({
           <motion.button
             className="flex items-center gap-3"
             initial={{
-              x: 100,
+              x: "calc(100% - 48px)",
             }}
             whileHover={{
               x: 0,

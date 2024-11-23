@@ -119,30 +119,33 @@ export default function Work() {
           </section>
 
           {/* Experiences */}
-          <section className="mt-40 max-w-240 container">
-            <SubHeading>Experiences</SubHeading>
-            <div className="mt-4">
-              <HeadingText>Who are the Primary Users?</HeadingText>
-              <div className="mt-6 flex gap-12">
-                <Paragraph>
-                  The target users are{" "}
-                  <strong>existing and new mutual fund advisors</strong> who
-                  help Kotak investors to create and manage portfolio. Also the
-                  support staff,{" "}
-                  <strong>
-                    individuals assisting the mutual fund advisors
-                  </strong>
-                  with administrative tasks and data management. These
-                  professionals are responsible for managing investor
-                  portfolios, monitoring their progress in total SIPs, and
-                  overseeing total assets under management (AUM). The portal is
-                  designed to enhance their efficiency and effectiveness in
-                  providing financial guidance and support to their clients.
-                </Paragraph>
-                <div className="hidden sm:block shrink-0">
-                  <Image src="/kotak/2.png" alt="" width={135} height={299} />
+          <section className="mt-40 max-w-240 container flex gap-12 items-start">
+            <div>
+              <SubHeading>Experiences</SubHeading>
+              <div className="mt-4">
+                <HeadingText>Who are the Primary Users?</HeadingText>
+                <div className="mt-6">
+                  <Paragraph>
+                    The target users are{" "}
+                    <strong>existing and new mutual fund advisors</strong> who
+                    help Kotak investors to create and manage portfolio. Also
+                    the support staff,{" "}
+                    <strong>
+                      individuals assisting the mutual fund advisors
+                    </strong>
+                    with administrative tasks and data management. These
+                    professionals are responsible for managing investor
+                    portfolios, monitoring their progress in total SIPs, and
+                    overseeing total assets under management (AUM). The portal
+                    is designed to enhance their efficiency and effectiveness in
+                    providing financial guidance and support to their clients.
+                  </Paragraph>
                 </div>
               </div>
+            </div>
+
+            <div className="hidden sm:block shrink-0">
+              <Image src="/kotak/2.png" alt="" width={135} height={299} />
             </div>
           </section>
 
@@ -281,7 +284,7 @@ export default function Work() {
           </section>
 
           {/* wireframes */}
-          <section className="container max-w-240 pt-24" id="wireframes">
+          <section className="container max-w-240 pt-32" id="wireframes">
             <Heading>wireframes</Heading>
             <div className="mt-4">
               <HeadingText>Initial Conceptual Designs</HeadingText>
@@ -301,7 +304,7 @@ export default function Work() {
           </section>
 
           {/* Visual Design */}
-          <section className="bg-light pb-16 pt-16 sm:pt-32 mt-10" id="design">
+          <section className="bg-light pb-16 pt-16 sm:pt-32 mt-24" id="design">
             <div className="container max-w-240">
               <SubHeading>visual design</SubHeading>
               <div className="mt-4">
@@ -333,10 +336,12 @@ export default function Work() {
 
           {/* Final Design */}
           <section className="pt-32">
-            <div className="">
-              <Heading>final design</Heading>
-              <div className="mt-4 container max-w-240">
-                <HeadingText>Intuitive, scalable solution</HeadingText>
+            <div>
+              <div className="container max-w-240">
+                <Heading>final design</Heading>
+                <div className="mt-4 ">
+                  <HeadingText>Intuitive, scalable solution</HeadingText>
+                </div>
               </div>
               <div className="mt-10 bg-kotak py-24">
                 <div className="container max-w-240">
