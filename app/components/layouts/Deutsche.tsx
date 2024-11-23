@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import {
-  ArchetypeCard,
   Heading,
   HeadingText,
   List,
@@ -131,58 +130,13 @@ export default function Work() {
               </div>
             </div>
 
-            <div className="mt-6 grid auto-fit-[280px] gap-6">
-              <ArchetypeCard
-                image="/card.png"
-                name="Visual"
-                list={["Blind Users", "Low Vision Users", "Color Blind Users"]}
-              />
-              <ArchetypeCard
-                image="/card.png"
-                name="COGNITIVE"
-                list={[
-                  "Users with Learning Disabilities",
-                  "Users with Memory Impairments",
-                  "Users with Attention Deficits ",
-                ]}
-              />
-              <ArchetypeCard
-                image="/card.png"
-                name="AUDITORY"
-                list={[
-                  "Deaf Users",
-                  "Users with Hearing Loss",
-                  "Hard of Hearing Users",
-                ]}
-              />
-              <ArchetypeCard
-                image="/card.png"
-                name="Anxiety"
-                list={[
-                  "Users with Social Anxiety",
-                  "Users with Generalized Anxiety Disorder (GAD)",
-                  "Users with Panic Disorders",
-                ]}
-              />
-              <ArchetypeCard
-                image="/card.png"
-                name="SPEECH"
-                list={[
-                  "Non-Verbal Users",
-                  "Users with Speech Impairments",
-                  "Users with Voice Disorders",
-                ]}
-              />
-              <ArchetypeCard
-                image="/card.png"
-                name="MOTOR"
-                list={[
-                  "Users with Limited Dexterity (e.g., Arthritis, Parkinson’s)",
-                  "Users with Limited Mobility (e.g., Quadriplegia",
-                  "Users with Tremors",
-                ]}
-              />
-            </div>
+            <Image
+              src="/dt/1.png"
+              alt=""
+              width={960}
+              height={762}
+              className="mt-6"
+            />
           </section>
 
           {/* Skip */}
@@ -300,9 +254,7 @@ export default function Work() {
               </div>
             </div>
             <div className="mt-6">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/dt/2.png" alt="" width={960} height={542} />
             </div>
           </section>
 
@@ -347,9 +299,7 @@ export default function Work() {
                 </List>
               </div>
               <div className="mt-10">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
+                <Image src="/dt/3.png" alt="" width={960} height={865} />
               </div>
             </div>
           </section>
@@ -373,9 +323,7 @@ export default function Work() {
               </ListItem>
             </List>
             <div className="mt-10">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
+              <Image src="/dt/4.png" alt="" width={960} height={670} />
             </div>
           </section>
 
@@ -405,9 +353,7 @@ export default function Work() {
                   also improves compatibility with screen readers.
                 </p>
                 <div className="mt-6">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/dt/5.png" alt="" width={960} height={1384} />
                 </div>
               </div>
             </div>
@@ -433,9 +379,7 @@ export default function Work() {
                   while aligning with the overall design language
                 </p>
                 <div className="mt-6">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/dt/6.png" alt="" width={960} height={366} />
                 </div>
               </div>
             </div>
@@ -455,9 +399,7 @@ export default function Work() {
                   for screen readers
                 </p>
                 <div className="mt-6">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/dt/7.png" alt="" width={960} height={1920} />
                 </div>
               </div>
             </div>
@@ -475,9 +417,7 @@ export default function Work() {
                   screen reader.
                 </p>
                 <div className="mt-6">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/dt/8.png" alt="" width={960} height={366} />
                 </div>
               </div>
             </div>
@@ -515,9 +455,7 @@ export default function Work() {
                   </List>
                 </div>
                 <div className="mt-6">
-                  <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                    IMAGE HERE
-                  </div>
+                  <Image src="/dt/9.png" alt="" width={960} height={1140} />
                 </div>
               </div>
             </div>
@@ -532,9 +470,7 @@ export default function Work() {
               </div>
               <div className="mt-8 flex flex-col gap-8">
                 <div className="flex gap-2 items-start">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                  <Image src="/dt/icon-1.svg" alt="" width={36} height={36} />
                   <div>
                     <span className="font-bold text-2xl">
                       Accessibility is not a choice; it’s a necessity.
@@ -551,10 +487,8 @@ export default function Work() {
                   </div>
                 </div>
 
-                <div className="flex gap-2">
-                  <div className="w-9 h-9 bg-slate-200 rounded-full shrink-0 flex items-center justify-center">
-                    I
-                  </div>
+                <div className="flex gap-2 items-start">
+                  <Image src="/dt/icon-2.svg" alt="" width={36} height={36} />
                   <div>
                     <span className="font-bold text-2xl">
                       Function over form
