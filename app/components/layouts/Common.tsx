@@ -91,3 +91,16 @@ export const ArchetypeCard = ({
     </ul>
   </article>
 );
+
+export function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]+/g, "");
+}
+
+export const getHeading = () => {
+  const headings = document.querySelectorAll("section[id]");
+
+  return Array.from(headings).map((heading) => heading.id);
+};

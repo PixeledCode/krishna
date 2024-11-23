@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import type { Image } from "../types/homepage";
 import { urlFor } from "../client";
+import { slugify } from "./layouts/Common";
 
 const imageMotion = {
   initial: { scale: 1 },
@@ -56,10 +57,3 @@ export const Card = ({
     </article>
   );
 };
-
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .replace(/ /g, "-")
-    .replace(/[^\w-]+/g, "");
-}
