@@ -1,6 +1,7 @@
 import type { Homepage as Types } from "@/app/types/homepage";
 import Image from "next/image";
 import { Card } from "../Card";
+import ReactMarkdown from "react-markdown";
 
 export const Homepage = ({ data }: { data: Types }) => {
   return (
@@ -17,9 +18,9 @@ export const Homepage = ({ data }: { data: Types }) => {
               Bangalore.
             </span>
           </h1>
-          <p className="mt-3 sm:text-xl whitespace-pre-line">
-            {data?.headingText}
-          </p>
+          <div className="mt-3 sm:text-xl whitespace-pre-line">
+            <ReactMarkdown>{data?.headingText}</ReactMarkdown>
+          </div>
         </div>
         <a href="#projects" className="hidden sm:block">
           <Image

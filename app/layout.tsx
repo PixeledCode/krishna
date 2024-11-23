@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Karma, Lato, Nunito } from "next/font/google";
 import "./globals.css";
+import "easymde/dist/easymde.min.css";
 
 const karma = Karma({
   subsets: ["latin"],

@@ -12,9 +12,9 @@ export const homepage = defineType({
       readOnly: true,
     }),
     defineField({
+      type: "markdown",
+      description: "Heading text",
       name: "headingText",
-      title: "Heading text",
-      type: "text",
     }),
     defineField({
       name: "projectTitle",
