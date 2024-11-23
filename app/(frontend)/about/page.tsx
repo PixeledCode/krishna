@@ -1,5 +1,6 @@
 import ReactMarkdown from "react-markdown";
-import { client } from "@/app/client";
+import { client, urlFor } from "@/app/client";
+import Image from "next/image";
 
 async function App() {
   const data = await client.fetch('*[_type == "about"][0]');
@@ -11,14 +12,26 @@ async function App() {
           {data.heading}
         </h1>
 
-        <div className="mt-10 text-center h-[496px] bg-[#AF8484] " />
+        <Image
+          src={urlFor(data.headerImage.asset._ref).url()}
+          alt=""
+          width={960}
+          height={496}
+          className="mt-10"
+        />
 
         <div className="mt-10 whitespace-pre-wrap">
           <ReactMarkdown>{data?.headingText}</ReactMarkdown>
         </div>
       </div>
 
-      <div className="mt-10 h-[256px] bg-gray-200" />
+      <Image
+        src={urlFor(data.collageImage.asset._ref).url()}
+        alt=""
+        width={1440}
+        height={256}
+        className="mt-10 w-full"
+      />
 
       <div className="my-28 container max-w-240 text-center">
         <p className="font-display leading-display text-2xl">
