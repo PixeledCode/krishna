@@ -455,8 +455,8 @@ export default function Work() {
               </div>
             </div>
 
-            <div className="py-28 bg-deutche relative gradient text-white">
-              <div className="container max-w-240 z-20 relative">
+            <div className="py-28 bg-deutche gradient text-white">
+              <div className="container max-w-240">
                 <SubHeading>Annotation</SubHeading>
                 <div className="mt-4">
                   <HeadingText>
@@ -569,38 +569,38 @@ export default function Work() {
           </section>
 
           {/* More Projects */}
-          <section className="mt-32 container max-w-240">
-            <HeadingText>More Projects</HeadingText>
-            <div className="mt-2 w-full h-[1px] bg-primary" />
-
-            <div className="mt-8 grid auto-fit-[300px] gap-6">
-              <article className="md:max-w-[468px]">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
-                <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                  Deutsche Telekom
-                </span>
-                <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                  Empowering Every User: Solving Accessibility Challenges in
-                  Smart Home Technology
-                </p>
-              </article>
-
-              <article className="md:max-w-[468px]">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
-                <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                  Innovapptive
-                </span>
-                <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                  Creating custom icons for the application
-                </p>
-              </article>
-            </div>
-          </section>
         </main>
+        <section className="mt-32 container max-w-240">
+          <HeadingText>More Projects</HeadingText>
+          <div className="mt-2 w-full h-[1px] bg-primary" />
+
+          <div className="mt-8 grid auto-fit-[300px] gap-6">
+            <article className="md:max-w-[468px]">
+              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
+                IMAGE HERE
+              </div>
+              <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
+                Deutsche Telekom
+              </span>
+              <p className="font-display text-lg sm:text-2xl leading-display mt-3">
+                Empowering Every User: Solving Accessibility Challenges in Smart
+                Home Technology
+              </p>
+            </article>
+
+            <article className="md:max-w-[468px]">
+              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
+                IMAGE HERE
+              </div>
+              <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
+                Innovapptive
+              </span>
+              <p className="font-display text-lg sm:text-2xl leading-display mt-3">
+                Creating custom icons for the application
+              </p>
+            </article>
+          </div>
+        </section>
       </div>
     </div>
   );
