@@ -27,7 +27,7 @@ export default function Work() {
       </h1>
 
       <Image
-        src="/frame.png"
+        src="/kotak_frame.png"
         width={1440}
         height={720}
         alt=""
