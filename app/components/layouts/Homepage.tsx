@@ -2,6 +2,7 @@ import type { Homepage as Types } from "@/app/types/homepage";
 import Image from "next/image";
 import { Card } from "../Card";
 import ReactMarkdown from "react-markdown";
+import { urlFor } from "@/app/client";
 
 export const Homepage = ({ data }: { data: Types }) => {
   return (
@@ -47,7 +48,7 @@ export const Homepage = ({ data }: { data: Types }) => {
                 key={card._key}
                 brand={card.brand}
                 title={card.title}
-                image={card.image}
+                image={urlFor(card.image.asset._ref).url()}
                 tags={card.tags}
               />
             ))}

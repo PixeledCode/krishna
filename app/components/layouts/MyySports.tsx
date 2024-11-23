@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import {
-  Card,
   Heading,
   HeadingText,
   List,
@@ -13,6 +12,7 @@ import {
   SubHeading,
 } from "./Common";
 import { Sidebar } from "../Sidebar";
+import { Card } from "../Card";
 
 export default function Work() {
   return (
@@ -24,7 +24,6 @@ export default function Work() {
         Revolutionising Local Sports: Redesigning a Mobile App for Players and
         Enthusiasts
       </h1>
-
       <Image
         src="/frame.png"
         width={1440}
@@ -32,7 +31,6 @@ export default function Work() {
         alt=""
         className="w-full object-cover mt-16"
       />
-
       <div className="relative">
         <Sidebar />
         <main>
@@ -46,13 +44,15 @@ export default function Work() {
               </HeadingText>
               <div className="mt-6">
                 <Paragraph>
-                  The app, a sports entertainment platform, allows creators and
-                  sports enthusiasts to record local matches, providing a stage
-                  for players to showcase their skills and for viewers to
-                  livestream matches. The primary focus of the redesign was to
-                  enhance the user experience, making it easier for players to
-                  share their matches while ensuring a seamless viewing
-                  experience for fans.
+                  The app, a <strong>sports entertainment platform</strong>,
+                  allows creators and sports enthusiasts to{" "}
+                  <strong>record local matches</strong>, providing a stage for{" "}
+                  <strong>players to showcase their skills</strong> and for
+                  viewers to <strong>livestream matches</strong>. The primary
+                  focus of the redesign was to{" "}
+                  <strong>enhance the user experience</strong>, making it easier
+                  for players to share their matches while ensuring a{" "}
+                  <strong>seamless viewing experience for fans</strong>.
                 </Paragraph>
               </div>
             </div>
@@ -118,25 +118,26 @@ export default function Work() {
               <div className="mt-6">
                 <List>
                   <ListItem>
-                    The app aims to foster a community experience for players
-                    and sports enthusiasts.
+                    The app aims to foster a{" "}
+                    <strong>community experience</strong> for players and sports
+                    enthusiasts.
                   </ListItem>
                   <ListItem>
-                    Users are categorized into three groups, each engaging with
-                    the app for different purposes, although a single user may
-                    belong to all three.
+                    Users are categorized into <strong>three groups</strong>,
+                    each engaging with the app for different purposes, although
+                    a single user may belong to all three.
                   </ListItem>
                   <ListItem>
-                    The primary users are the players, who utilize the platform
-                    to showcase their skills, improve their performance, and
-                    leverage the content as a portfolio to secure more match
-                    opportunities.
+                    The <strong>primary users are the players</strong>, who
+                    utilize the platform to showcase their skills, improve their
+                    performance, and leverage the content as a portfolio to
+                    secure more match opportunities.
                   </ListItem>
                 </List>
               </div>
             </div>
 
-            <div className="mt-6 flex flex-wrap gap-6">
+            <div className="mt-6 grid auto-fit-[280px] gap-6">
               <article className="flex flex-col justify-center items-center bg-light p-6 rounded-3xl flex-grow ">
                 <div className="w-32 h-32 flex items-center justify-center bg-[#3CBDD3] rounded-full">
                   <Image src="/card.png" alt="" width={76} height={98} />
@@ -160,10 +161,9 @@ export default function Work() {
                   PLAYER
                 </span>
                 <ul className="list-disc mt-6 pl-5 text-sm">
-                  <li>Setup their account</li>
-                  <li>Update their stats</li>
-                  <li>Showcase their skills</li>
-                  <li>Gain followers/supporters</li>
+                  <li>Watch the matches </li>
+                  <li>Support their favourite team/player</li>
+                  <li>Interact with other viewers</li>
                 </ul>
               </article>
 
@@ -175,10 +175,11 @@ export default function Work() {
                   PLAYER
                 </span>
                 <ul className="list-disc mt-6 pl-5 text-sm">
-                  <li>Setup their account</li>
-                  <li>Update their stats</li>
-                  <li>Showcase their skills</li>
-                  <li>Gain followers/supporters</li>
+                  <li>
+                    Create content ( reel, videos, shows, matches, tournament )
+                  </li>
+                  <li>Organise matches</li>
+                  <li>Create and manage teams</li>
                 </ul>
               </article>
             </div>
@@ -302,30 +303,30 @@ export default function Work() {
               </div>
               <div className="mt-6 relative">
                 <div className="grid auto-fit-[372px] gap-5 max-w-[764px]">
-                  <Card>
+                  <ResearchCard>
                     Lack of clarity and understanding of the purpose of the
                     application when the user gets onboarded.
-                  </Card>
-                  <Card>
+                  </ResearchCard>
+                  <ResearchCard>
                     Lack of clarity and understanding of the purpose of the
                     application when the user gets onboarded.
-                  </Card>
-                  <Card>
+                  </ResearchCard>
+                  <ResearchCard>
                     Lack of clarity and understanding of the purpose of the
                     application when the user gets onboarded.
-                  </Card>
-                  <Card>
+                  </ResearchCard>
+                  <ResearchCard>
                     Lack of clarity and understanding of the purpose of the
                     application when the user gets onboarded.
-                  </Card>
-                  <Card>
+                  </ResearchCard>
+                  <ResearchCard>
                     Lack of clarity and understanding of the purpose of the
                     application when the user gets onboarded.
-                  </Card>
-                  <Card>
+                  </ResearchCard>
+                  <ResearchCard>
                     Lack of clarity and understanding of the purpose of the
                     application when the user gets onboarded.
-                  </Card>
+                  </ResearchCard>
                 </div>
                 <Image
                   src="/notepad.png"
@@ -392,13 +393,17 @@ export default function Work() {
                 <div className="mt-6 text-xl">
                   <List>
                     <ListItem>
-                      Hotstar provides shows and clips from the matches. It
-                      diversifies the content and keep the users engaged with
-                      the platform even if there is no live match streaming.
+                      Hotstar provides <strong>shows and clips</strong> from the
+                      matches. It <strong>diversifies the content</strong> and
+                      keep the users engaged with the platform even if there is
+                      no live match streaming.
                     </ListItem>
                     <ListItem>
-                      Youtube’s optimises both it’s long form and short form
-                      content by presenting it together in the homepage
+                      Youtube’s{" "}
+                      <strong>
+                        optimises both it’s long form and short form content
+                      </strong>{" "}
+                      by presenting it together in the homepage
                     </ListItem>
                   </List>
                 </div>
@@ -412,11 +417,13 @@ export default function Work() {
                   <List>
                     <ListItem>
                       Youtube presents a very engaging experience to the viewer
-                      when it comes to personalised content, buttons like
-                      subscribe, save lets you curate playlists and content.
+                      when it comes to <strong>personalised content</strong>,
+                      buttons <strong>like subscribe, save</strong> lets you
+                      curate playlists and content.
                     </ListItem>
                     <ListItem>
-                      Youtube provides search suggestions and recommends videos
+                      Youtube provides{" "}
+                      <strong>search suggestions and recommends</strong> videos
                       based on the user’s interest{" "}
                     </ListItem>
                   </List>
@@ -429,12 +436,13 @@ export default function Work() {
                   <List>
                     <ListItem>
                       Sportskeeda & ESPN provides content in the form of news,
-                      articles, videos. It covers wide range of topics within
-                      the sports category.
+                      articles, videos. It covers{" "}
+                      <strong>wide range of topics</strong> within the sports
+                      category.
                     </ListItem>
                     <ListItem>
-                      ESPN specialises in live coverage of various sports
-                      leagues
+                      ESPN specialises in <strong>live coverage</strong> of
+                      various sports leagues
                     </ListItem>
                   </List>
                 </div>
@@ -453,14 +461,20 @@ export default function Work() {
                 <ListItem>
                   I worked on a new information architecture to enhance the
                   app’s usability and overall structure. This redesign involved
-                  a comprehensive reorganisation of navigation to streamline
-                  user interactions and ensure intuitive access to key features.
+                  a comprehensive reorganisation of navigation to{" "}
+                  <strong>
+                    streamline user interactions and ensure intuitive access to
+                    key features
+                  </strong>
+                  .
                 </ListItem>
                 <ListItem>
                   Additionally, the new architecture was designed with
-                  scalability in mind, incorporating placeholders for future
-                  updates and features to align with evolving business
-                  requirements.
+                  scalability in mind,{" "}
+                  <strong>
+                    incorporating placeholders for future updates and features
+                  </strong>{" "}
+                  to align with evolving business requirements.
                 </ListItem>
                 <ListItem>
                   This strategic approach aimed to provide a more cohesive and
@@ -501,11 +515,12 @@ export default function Work() {
             <div className="mt-6">
               <Paragraph>
                 The visual rebranding process was inspired by top contemporary
-                sports apps, with a focus on creating an aesthetic that is
-                sleek, bold, dynamic, inspiring, and cutting-edge. This
-                direction aimed to revitalise the app&rsquo;s appearance, making
-                it more appealing and engaging for users, while reflecting the
-                dynamic and energetic nature of the sports community.
+                sports apps, with a focus on creating an aesthetic that is{" "}
+                <strong>sleek, bold, dynamic</strong>, inspiring, and
+                cutting-edge. This direction aimed to revitalise the app&rsquo;s
+                appearance, making it more appealing and engaging for users,
+                while reflecting the dynamic and energetic nature of the sports
+                community.
               </Paragraph>
             </div>
             <div className="mt-16">
@@ -615,41 +630,33 @@ export default function Work() {
               BACK to top
             </button>
           </section>
-
-          {/* More Projects */}
-          <section className="mt-32 container max-w-240">
-            <HeadingText>More Projects</HeadingText>
-            <div className="mt-2 w-full h-[1px] bg-primary" />
-
-            <div className="mt-8 grid auto-fit-[300px] gap-6">
-              <article className="md:max-w-[468px]">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
-                <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                  Deutsche Telekom
-                </span>
-                <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                  Empowering Every User: Solving Accessibility Challenges in
-                  Smart Home Technology
-                </p>
-              </article>
-
-              <article className="md:max-w-[468px]">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
-                <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                  Innovapptive
-                </span>
-                <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                  Creating custom icons for the application
-                </p>
-              </article>
-            </div>
-          </section>
         </main>
       </div>
+
+      {/* More Projects */}
+      <section className="mt-32 container max-w-240">
+        <HeadingText>More Projects</HeadingText>
+        <div className="mt-2 w-full h-[1px] bg-primary" />
+
+        <div className="mt-8 grid auto-fit-[300px] gap-6">
+          <Card
+            image="/deutsche-card.png"
+            title="Empowering Every User: Solving Accessibility Challenges in Smart Home Technology"
+            brand="Deutsche Telekom"
+          />
+          <Card
+            image="/innovapptive-card.png"
+            title="Icon Design for Intuitive Interaction: Developing Iconography for Innovapptive"
+            brand="Innovapptive"
+          />
+        </div>
+      </section>
     </div>
   );
 }
+
+const ResearchCard = ({ children }: { children: React.ReactNode }) => (
+  <div className="bg-[rgba(247,75,1,0.6)] p-6 font-semibold border border-primary rounded-2xl">
+    {children}
+  </div>
+);

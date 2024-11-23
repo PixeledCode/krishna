@@ -40,7 +40,7 @@ export const ListItem = ({ children }: { children: React.ReactNode }) => (
 );
 
 export const Pill = ({ children }: { children: React.ReactNode }) => (
-  <span className="py-2 px-4 flex items-center gap-2 border border-solid border-primary w-fit rounded-3xl">
+  <span className="py-2 px-4 font-semibold flex items-center gap-2 border border-solid border-primary w-fit rounded-3xl">
     <CrossIcon />
     <span className="text-sm"> {children}</span>
   </span>
@@ -60,12 +60,6 @@ export const Separator = ({
       className
     )}
   />
-);
-
-export const Card = ({ children }: { children: React.ReactNode }) => (
-  <div className="bg-[rgba(247,75,1,0.6)] p-6 font-semibold border border-primary rounded-2xl">
-    {children}
-  </div>
 );
 
 export const ArchetypeCard = ({

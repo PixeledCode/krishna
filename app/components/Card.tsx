@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import type { Image } from "../types/homepage";
-import { urlFor } from "../client";
 import { slugify } from "./layouts/Common";
 
 const imageMotion = {
@@ -19,7 +17,7 @@ export const Card = ({
 }: {
   brand: string;
   title: string;
-  image: Image;
+  image: string;
   alt?: string;
   tags?: string[];
 }) => {
@@ -32,7 +30,7 @@ export const Card = ({
         whileHover="animate"
       >
         <motion.img
-          src={urlFor(image.asset._ref).url()}
+          src={image}
           alt={alt}
           variants={imageMotion}
           transition={{ type: "spring", stiffness: 200 }}

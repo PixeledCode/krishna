@@ -13,6 +13,7 @@ import {
 } from "./Common";
 import Image from "next/image";
 import { Sidebar } from "../Sidebar";
+import { Card } from "../Card";
 
 export default function Work() {
   return (
@@ -46,12 +47,13 @@ export default function Work() {
               </HeadingText>
               <div className="mt-6">
                 <Paragraph>
-                  We engaged in a collaborative effort with the Kotak Mutual
-                  Funds team to revamp the mutual funds advisor portal. Our
-                  primary objective was to craft visually captivating screens
-                  while simultaneously addressing any user experience
-                  challenges, ensuring a seamless and intuitive journey for the
-                  end users.
+                  We engaged in a <strong>collaborative effort</strong> with the
+                  Kotak Mutual Funds team to revamp the mutual funds advisor
+                  portal. Our primary objective was to{" "}
+                  <strong>craft visually captivating screens</strong> while
+                  simultaneously{" "}
+                  <strong>addressing any user experience challenges</strong>,
+                  ensuring a seamless and intuitive journey for the end users.
                 </Paragraph>
               </div>
             </div>
@@ -90,9 +92,12 @@ export default function Work() {
                   </ListItem>
                   <ListItem>
                     However, the portal falls short in delivering a smooth
-                    overall experience due to complex navigation, unstructured
-                    information hierarchy, and a dashboard that lacks prominent
-                    display of relevant information.
+                    overall experience due to{" "}
+                    <strong>
+                      complex navigation, unstructured information hierarchy
+                    </strong>
+                    , and a dashboard that lacks prominent display of relevant
+                    information.
                   </ListItem>
                 </List>
               </div>
@@ -116,9 +121,13 @@ export default function Work() {
               <HeadingText>Who are the Primary Users?</HeadingText>
               <div className="mt-6 flex gap-12">
                 <Paragraph>
-                  The target users are existing and new mutual fund advisors who
+                  The target users are{" "}
+                  <strong>existing and new mutual fund advisors</strong> who
                   help Kotak investors to create and manage portfolio. Also the
-                  support staff, individuals assisting the mutual fund advisors
+                  support staff,{" "}
+                  <strong>
+                    individuals assisting the mutual fund advisors
+                  </strong>
                   with administrative tasks and data management. These
                   professionals are responsible for managing investor
                   portfolios, monitoring their progress in total SIPs, and
@@ -191,10 +200,11 @@ export default function Work() {
               <div className="mt-6">
                 <List>
                   <ListItem>
-                    Working on this project was a highly collaborative process.
-                    From the initial phase to the final stages, I worked closely
-                    with the Kotak team&apos;s project manager, actively
-                    coordinating on the user flows and design development.
+                    Working on this project was a{" "}
+                    <strong>highly collaborative process</strong>. From the
+                    initial phase to the final stages, I worked closely with the
+                    Kotak team&apos;s project manager, actively coordinating on
+                    the user flows and design development.
                   </ListItem>
                   <ListItem>
                     Meetings were held every few days to initially grasp the
@@ -229,15 +239,22 @@ export default function Work() {
                   <ListItem>
                     To understand the problem space better I first conducted a
                     thorough analysis of leading industry players. By examining
-                    the strengths, weaknesses and unique features of advisor
-                    portals from Axis, HDFC, DSP, ICICI, SBI, and Nippon India
-                    Mutual Funds, valuable insights were gathered.
+                    the{" "}
+                    <strong>strengths, weaknesses and unique features</strong>{" "}
+                    of advisor portals from{" "}
+                    <strong>
+                      Axis, HDFC, DSP, ICICI, SBI, and Nippon India Mutual Funds
+                    </strong>
+                    , valuable insights were gathered.
                   </ListItem>
                   <ListItem>
-                    This benchmarking process helped identify industry
-                    standards, gaps in existing solutions, and opportunities to
-                    create a more intuitive, feature-rich platform that caters
-                    specifically to the needs of mutual fund advisors.
+                    This benchmarking process helped identify{" "}
+                    <strong>
+                      industry standards, gaps in existing solutions, and
+                      opportunities
+                    </strong>{" "}
+                    to create a more intuitive, feature-rich platform that
+                    caters specifically to the needs of mutual fund advisors.
                   </ListItem>
                 </List>
               </div>
@@ -282,7 +299,7 @@ export default function Work() {
                 homepage with appropriate nudges, and reorganized content with a
                 better structure to make it easier and quicker for users.
                 <br />
-                We went ahead with mobile-first approach.
+                We went ahead with <strong>mobile-first approach</strong>.
               </Paragraph>
             </div>
             <div className="mt-6">
@@ -301,13 +318,14 @@ export default function Work() {
               </div>
               <div className="mt-6">
                 <Paragraph>
-                  We aimed for a fun, clean aesthetic with a pastel colour
-                  palette, while maintaining the brand&apos;s base color as per
-                  the guidelines. Relevant illustrations are used throughout to
-                  keep the interface fresh and engaging, striking a balance
-                  between professionalism and visual appeal. This approach
-                  ensures a user-friendly experience that is both modern and
-                  aligned with the brand identity.
+                  We aimed for a <strong>fun, clean aesthetic</strong> with a
+                  <strong>pastel colour palette</strong>, while maintaining the
+                  brand&apos;s base color as per the guidelines.{" "}
+                  <strong>Relevant illustrations</strong> are used throughout to
+                  keep the interface fresh and engaging, striking a balance{" "}
+                  <strong>between professionalism and visual appeal</strong>.
+                  This approach ensures a user-friendly experience that is both
+                  modern and aligned with the brand identity.
                 </Paragraph>
               </div>
               <div className="mt-16">
@@ -467,41 +485,27 @@ export default function Work() {
               BACK to top
             </button>
           </section>
-
-          {/* More Projects */}
-          <section className="mt-32 container max-w-240">
-            <HeadingText>More Projects</HeadingText>
-
-            <div className="mt-2 w-full h-[1px] bg-primary" />
-
-            <div className="mt-8 grid auto-fit-[300px] gap-6">
-              <article className="md:max-w-[468px]">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
-                <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                  Deutsche Telekom
-                </span>
-                <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                  Empowering Every User: Solving Accessibility Challenges in
-                  Smart Home Technology
-                </p>
-              </article>
-
-              <article className="md:max-w-[468px]">
-                <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                  IMAGE HERE
-                </div>
-                <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                  Innovapptive
-                </span>
-                <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                  Creating custom icons for the application
-                </p>
-              </article>
-            </div>
-          </section>
         </main>
+
+        {/* More Projects */}
+        <section className="mt-32 container max-w-240">
+          <HeadingText>More Projects</HeadingText>
+          <div className="mt-2 w-full h-[1px] bg-primary" />
+
+          <div className="mt-8 grid auto-fit-[300px] gap-6">
+            <Card
+              image="/myysports-card.png"
+              title="Reimagining the experience of the product for all users to increase engagement and enhance value proposition"
+              brand="MyySports"
+            />
+
+            <Card
+              image="/deutsche-card.png"
+              title="Empowering Every User: Solving Accessibility Challenges in Smart Home Technology"
+              brand="Deutsche Telekom"
+            />
+          </div>
+        </section>
       </div>
     </div>
   );

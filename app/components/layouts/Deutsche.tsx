@@ -12,6 +12,7 @@ import {
   SubHeading,
 } from "./Common";
 import { Sidebar } from "../Sidebar";
+import { Card } from "../Card";
 
 export default function Work() {
   return (
@@ -44,15 +45,18 @@ export default function Work() {
               </HeadingText>
               <div className="mt-6">
                 <Paragraph>
-                  We collaborated on a redesign project with a designer from the
-                  MagentaZuhause app, a smart home solution by Deutsche Telekom,
-                  after it failed to meet the European Union’s accessibility
-                  guidelines during an audit. The audit revealed major
-                  accessibility barriers for users with impairments. With a
-                  complete overhaul not feasible due to resource limitations,
-                  the project focused on targeted redesigns of critical screens
-                  and elements to ensure compliance while preserving a seamless
-                  experience for all users, including those without
+                  We <strong>collaborated</strong> on a redesign project with a
+                  designer from the MagentaZuhause app, a smart home solution by
+                  Deutsche Telekom, after it failed to meet the European Union’s
+                  accessibility guidelines during an audit. The{" "}
+                  <strong>audit revealed major accessibility barriers</strong>{" "}
+                  for users with impairments. With{" "}
+                  <strong>
+                    a complete overhaul not feasible due to resource limitations
+                  </strong>
+                  , the project focused on targeted redesigns of critical
+                  screens and elements to ensure compliance while preserving a
+                  seamless experience for all users, including those without
                   disabilities.
                 </Paragraph>
               </div>
@@ -207,25 +211,33 @@ export default function Work() {
                 <HeadingText>Design Goals</HeadingText>
               </div>
               <div className="mt-6 flex gap-4 flex-col font-medium text-xl list-decimal list-inside">
-                <p className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
-                  <span>1.</span>
-                  Achieve Accessibility Compliance: Ensure the smart home
-                  solution mobile application meets the European Union’s
-                  accessibility guidelines (WCAG 2.1 AA) to pass future audits.
-                </p>
-                <p className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
-                  <span>2.</span>
-                  Enhance User Experience for All: Redesign key elements and
-                  screens to provide an inclusive experience for users with
-                  disabilities (visual, auditory, motor, cognitive).
-                </p>
-                <p className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
-                  <span>3.</span>
-                  Maintain Brand and Functional Integrity: Ensure the redesign
-                  of accessible elements aligns with the brand’s existing design
-                  language and functionality, avoiding disruption to
-                  non-disabled users.
-                </p>
+                <div className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
+                  <span className="font-bold">1.</span>
+                  <p>
+                    <strong>Achieve Accessibility Compliance:</strong> Ensure
+                    the smart home solution mobile application meets the
+                    European Union’s accessibility guidelines (WCAG 2.1 AA) to
+                    pass future audits.
+                  </p>
+                </div>
+                <div className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
+                  <span className="font-bold">2.</span>
+                  <p>
+                    <strong>Enhance User Experience for All:</strong> Redesign
+                    key elements and screens to provide an inclusive experience
+                    for users with disabilities (visual, auditory, motor,
+                    cognitive).
+                  </p>
+                </div>
+                <div className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
+                  <span className="font-bold">3.</span>
+                  <p>
+                    <strong>Maintain Brand and Functional Integrity:</strong>{" "}
+                    Ensure the redesign of accessible elements aligns with the
+                    brand’s existing design language and functionality, avoiding
+                    disruption to non-disabled users.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -235,25 +247,31 @@ export default function Work() {
                 <HeadingText>Balancing Compliance and Feasibility</HeadingText>
               </div>
               <div className="mt-6 flex gap-4 flex-col font-medium text-xl list-decimal list-inside">
-                <p className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
-                  <span>1.</span>
-                  No Complete Redesign: The project must focus on targeted
-                  redesigns of screens and elements to address accessibility
-                  issues, as a complete overhaul is not feasible due to time and
-                  resource constraints.
-                </p>
-                <p className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
-                  <span>2.</span>
-                  Time Restrictions: The redesign must be completed within a
-                  limited time frame to meet upcoming audit deadlines and
-                  regulatory requirements.
-                </p>
-                <p className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
-                  <span>3.</span>
-                  Existing Brand Guidelines: The redesign must adhere to the
-                  company’s existing brand identity, including visual style,
-                  color palettes, and typography.
-                </p>
+                <div className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
+                  <span className="font-bold">1.</span>
+                  <p>
+                    <strong>No Complete Redesign:</strong> The project must
+                    focus on targeted redesigns of screens and elements to
+                    address accessibility issues, as a complete overhaul is not
+                    feasible due to time and resource constraints.
+                  </p>
+                </div>
+                <div className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
+                  <span className="font-bold">2.</span>
+                  <p>
+                    <strong>Time Restrictions:</strong> The redesign must be
+                    completed within a limited time frame to meet upcoming audit
+                    deadlines and regulatory requirements.
+                  </p>
+                </div>
+                <div className="px-6 py-4 bg-[rgba(247,75,1,0.6)] border border-primary rounded-2xl flex gap-1">
+                  <span className="font-bold">3.</span>
+                  <p>
+                    <strong>Existing Brand Guidelines:</strong> The redesign
+                    must adhere to the company’s existing brand identity,
+                    including visual style, color palettes, and typography.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -266,9 +284,12 @@ export default function Work() {
               <div className="mt-6">
                 <List>
                   <ListItem>
-                    I worked closely with the designer from the MagentaZuhause
-                    team to address the accessibility challenges identified in
-                    the audit.
+                    <strong>
+                      I worked closely with the designer from the MagentaZuhause
+                      team
+                    </strong>{" "}
+                    to address the accessibility challenges identified in the
+                    audit.
                   </ListItem>
                   <ListItem>
                     Our collaborative approach involved extensive research and
@@ -301,16 +322,22 @@ export default function Work() {
                   </ListItem>
                   <ListItem>
                     To streamline the resolution process, I segregated the
-                    issues into three categories: UI/UX-related,
-                    development-related, and a combination of both. This allowed
-                    us to address design and technical challenges separately,
-                    ensuring more focused solutions.
+                    issues into three categories:{" "}
+                    <strong>
+                      UI/UX-related, development-related, and a combination of
+                      both
+                    </strong>
+                    . This allowed us to address design and technical challenges
+                    separately, ensuring more focused solutions.
                   </ListItem>
                   <ListItem>
                     Additionally, I prioritized the issues based on their
-                    severity—classifying them as critical, moderate, or minor—so
-                    that the most urgent accessibility barriers could be tackled
-                    first.
+                    severity—{" "}
+                    <strong>
+                      classifying them as critical, moderate, or minor
+                    </strong>{" "}
+                    —so that the most urgent accessibility barriers could be
+                    tackled first.
                   </ListItem>
                   <ListItem>
                     This structured approach enabled us to create a clear
@@ -467,9 +494,12 @@ export default function Work() {
                   <List>
                     <ListItem>
                       For the screen reader annotation exercise, I conducted
-                      extensive research by reviewing multiple resources on
-                      accessibility best practices and consulting with an
-                      accessibility expert.
+                      extensive research by{" "}
+                      <strong>
+                        reviewing multiple resources on accessibility best
+                        practices and consulting with an accessibility expert
+                      </strong>
+                      .
                     </ListItem>
                     <ListItem>
                       Additionally, I collaborated with the development team to
@@ -567,41 +597,27 @@ export default function Work() {
               BACK to top
             </button>
           </section>
-
-          {/* More Projects */}
         </main>
-        <section className="mt-32 container max-w-240">
-          <HeadingText>More Projects</HeadingText>
-          <div className="mt-2 w-full h-[1px] bg-primary" />
-
-          <div className="mt-8 grid auto-fit-[300px] gap-6">
-            <article className="md:max-w-[468px]">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
-              <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                Deutsche Telekom
-              </span>
-              <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                Empowering Every User: Solving Accessibility Challenges in Smart
-                Home Technology
-              </p>
-            </article>
-
-            <article className="md:max-w-[468px]">
-              <div className="w-full h-[500px] bg-slate-200 rounded-md flex items-center justify-center">
-                IMAGE HERE
-              </div>
-              <span className="text-xs sm:text-base mt-6 block font-semibold uppercase">
-                Innovapptive
-              </span>
-              <p className="font-display text-lg sm:text-2xl leading-display mt-3">
-                Creating custom icons for the application
-              </p>
-            </article>
-          </div>
-        </section>
       </div>
+
+      {/* More Projects */}
+      <section className="mt-32 container max-w-240">
+        <HeadingText>More Projects</HeadingText>
+        <div className="mt-2 w-full h-[1px] bg-primary" />
+
+        <div className="mt-8 grid auto-fit-[300px] gap-6">
+          <Card
+            image="/kotak-card.png"
+            title="Redesign the Mutual Fund Advisor Portal and create a scalable product"
+            brand="Kotak Mutual Funds"
+          />
+          <Card
+            image="/myysports-card.png"
+            title="Reimagining the experience of the product for all users to increase engagement and enhance value proposition"
+            brand="MyySports"
+          />
+        </div>
+      </section>
     </div>
   );
 }
