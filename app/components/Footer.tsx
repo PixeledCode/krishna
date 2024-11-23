@@ -1,7 +1,5 @@
 "use client";
 import Image from "next/image";
-import { ArrowIcon } from "../assets/ArrowIcon";
-import { motion } from "framer-motion";
 import { toast } from "sonner";
 
 export const Footer = ({
@@ -17,30 +15,6 @@ export const Footer = ({
   return (
     <footer className="bg-dark pt-8 sm:pt-16 pb-6 text-text-on-bg whitespace-pre-line">
       <div className="container">
-        <div className="flex justify-end overflow-hidden">
-          <motion.button
-            className="flex items-center gap-3"
-            initial={{
-              x: 90,
-            }}
-            whileHover={{
-              x: 0,
-            }}
-            transition={{
-              duration: 0.4,
-              type: "tween",
-              ease: "easeOut",
-            }}
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          >
-            <span className="p-2 rounded-full bg-bg w-fit">
-              <ArrowIcon />
-            </span>
-            Back to top
-          </motion.button>
-        </div>
         <div className="flex items-center gap-4 justify-between mt-12">
           <div>
             <p className="font-display leading-display text-lg sm:text-3xl">
