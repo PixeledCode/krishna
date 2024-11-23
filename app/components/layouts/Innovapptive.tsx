@@ -35,7 +35,11 @@ export default function Work() {
         <Sidebar />
         <main>
           {/* Overview */}
-          <section className="max-w-240 container pt-24" id="overview">
+          <section
+            className="max-w-240 container pt-24"
+            id="overview"
+            data-id-sidebar="overview"
+          >
             <Heading>Overview</Heading>
             <div className="mt-4">
               <HeadingText>
@@ -151,7 +155,11 @@ export default function Work() {
           </section>
 
           {/* Process */}
-          <section className="pt-24 container max-w-240" id="process">
+          <section
+            className="pt-24 container max-w-240"
+            id="process"
+            data-id-sidebar="process"
+          >
             <Heading>Process</Heading>
             <div className="mt-4">
               <HeadingText>Design Process Overview</HeadingText>
@@ -187,7 +195,11 @@ export default function Work() {
           </section>
 
           {/* Research */}
-          <section className="bg-light py-32 mt-24" id="guidelines">
+          <section
+            className="bg-light py-32 mt-24"
+            id="guidelines"
+            data-id-sidebar="guidelines"
+          >
             <div className="container max-w-240">
               <Heading>GUIDELINES</Heading>
               <div className="mt-4">
@@ -246,7 +258,7 @@ export default function Work() {
           </section>
 
           {/* Final Design */}
-          <section className="pt-32" id="design">
+          <section className="pt-32" id="design" data-id-sidebar="design">
             <div className="container max-w-240">
               <Heading>Design</Heading>
               <div className="mt-4">
@@ -269,7 +281,11 @@ export default function Work() {
           </section>
 
           {/* Takeaway */}
-          <section className="bg-light py-32" id="takeaway">
+          <section
+            className="bg-light py-32"
+            id="takeaway"
+            data-id-sidebar="takeaway"
+          >
             <div className="container max-w-240">
               <Heading>Takeaway</Heading>
               <div className="mt-4">

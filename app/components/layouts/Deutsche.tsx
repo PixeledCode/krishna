@@ -35,7 +35,11 @@ export default function Work() {
         <Sidebar />
         <main>
           {/* Overview */}
-          <section className="max-w-240 container pt-24" id="overview">
+          <section
+            className="max-w-240 container pt-24"
+            id="overview"
+            data-id-sidebar="overview"
+          >
             <Heading>Overview</Heading>
             <div className="mt-4">
               <HeadingText>
@@ -231,7 +235,11 @@ export default function Work() {
           </section>
 
           {/* Process */}
-          <section className="pt-24 container max-w-240" id="process">
+          <section
+            className="pt-24 container max-w-240"
+            id="process"
+            data-id-sidebar="process"
+          >
             <Heading>Process</Heading>
             <div className="mt-4">
               <HeadingText>Design Process Overview</HeadingText>
@@ -259,7 +267,11 @@ export default function Work() {
           </section>
 
           {/* Research */}
-          <section className="bg-light py-32 mt-24" id="research">
+          <section
+            className="bg-light py-32 mt-24"
+            id="research"
+            data-id-sidebar="research"
+          >
             <div className="container max-w-240">
               <Heading>Research</Heading>
               <div className="mt-4">
@@ -328,7 +340,7 @@ export default function Work() {
           </section>
 
           {/* Final Design */}
-          <section className="pt-32" id="design">
+          <section className="pt-32" id="design" data-id-sidebar="design">
             <div className="container max-w-240">
               <Heading>Design Execution</Heading>
               <div className="mt-4">
@@ -422,9 +434,13 @@ export default function Work() {
               </div>
             </div>
 
-            <div className="py-28 bg-deutche gradient text-white">
+            <section
+              className="py-28 bg-deutche gradient text-white"
+              id="annotation"
+              data-id-sidebar="annotation"
+            >
               <div className="container max-w-240">
-                <SubHeading>Annotation</SubHeading>
+                <Heading>Annotation</Heading>
                 <div className="mt-4">
                   <HeadingText>
                     Enhancing Screen Reader Accessibility
@@ -458,11 +474,15 @@ export default function Work() {
                   <Image src="/dt/9.png" alt="" width={960} height={1140} />
                 </div>
               </div>
-            </div>
+            </section>
           </section>
 
           {/* Takeaway */}
-          <section className="bg-light py-32" id="takeaway">
+          <section
+            className="bg-light py-32"
+            id="takeaway"
+            data-id-sidebar="takeaway"
+          >
             <div className="container max-w-240">
               <Heading>Takeaway</Heading>
               <div className="mt-4">

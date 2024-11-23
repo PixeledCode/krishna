@@ -35,7 +35,11 @@ export default function Work() {
         <Sidebar />
         <main>
           {/* Overview */}
-          <section className="max-w-240 container pt-24" id="overview">
+          <section
+            className="max-w-240 container pt-24"
+            id="overview"
+            data-id-sidebar="overview"
+          >
             <Heading>Overview</Heading>
             <div className="mt-4">
               <HeadingText>
@@ -184,7 +188,11 @@ export default function Work() {
           </section>
 
           {/* Process */}
-          <section className="pt-24 container max-w-240" id="process">
+          <section
+            className="pt-24 container max-w-240"
+            id="process"
+            data-id-sidebar="process"
+          >
             <Heading>Process</Heading>
             <div className="mt-4">
               <HeadingText>Behind the Scenes</HeadingText>
@@ -216,7 +224,11 @@ export default function Work() {
           </section>
 
           {/* Research */}
-          <section className="bg-light py-32 mt-24" id="research">
+          <section
+            className="bg-light py-32 mt-24"
+            id="research"
+            data-id-sidebar="research"
+          >
             <div className="container max-w-240">
               <Heading>Research</Heading>
               <div className="mt-4">
@@ -374,7 +386,11 @@ export default function Work() {
           </section>
 
           {/* Concept */}
-          <section className="pt-32 container max-w-240" id="concepts">
+          <section
+            className="pt-32 container max-w-240"
+            id="concepts"
+            data-id-sidebar="concepts"
+          >
             <Heading>Concepts</Heading>
             <div className="mt-4">
               <HeadingText>Restructuring Information Architecture</HeadingText>
@@ -419,7 +435,11 @@ export default function Work() {
           </section>
 
           {/* wireframes */}
-          <section className="bg-light py-32 mt-24" id="wireframe">
+          <section
+            className="bg-light py-32 mt-24"
+            id="wireframe"
+            data-id-sidebar="wireframe"
+          >
             <div className="container max-w-240">
               <Heading>wireframes</Heading>
               <div className="mt-4">
@@ -466,7 +486,7 @@ export default function Work() {
           </section>
 
           {/* Final Design */}
-          <section className="pt-32 " id="design">
+          <section className="pt-32 " id="design" data-id-sidebar="design">
             <div className="container max-w-240">
               <Heading>final design</Heading>
               <div className="mt-4">
@@ -507,7 +527,11 @@ export default function Work() {
           </section>
 
           {/* Takeaway */}
-          <section className="bg-light py-32" id="takeaway">
+          <section
+            className="bg-light py-32"
+            id="takeaway"
+            data-id-sidebar="takeaway"
+          >
             <div className="container max-w-240">
               <Heading>Takeaway</Heading>
               <div className="mt-4">

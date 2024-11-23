@@ -94,7 +94,7 @@ export function slugify(text: string) {
 }
 
 export const getHeading = () => {
-  const headings = document.querySelectorAll("section[id]");
+  const headings = document.querySelectorAll("section[data-id-sidebar]");
 
   return Array.from(headings).map((heading) => heading.id);
 };
