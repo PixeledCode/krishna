@@ -508,27 +508,26 @@ export default function Work() {
             </button>
           </section>
         </main>
-
-        {/* More Projects */}
-        <section className="mt-32 container max-w-240">
-          <HeadingText>More Projects</HeadingText>
-          <div className="mt-2 w-full h-[1px] bg-primary" />
-
-          <div className="mt-8 grid auto-fit-[300px] gap-6">
-            <Card
-              image="/myysports-card.png"
-              title="Reimagining the experience of the product for all users to increase engagement and enhance value proposition"
-              brand="MyySports"
-            />
-
-            <Card
-              image="/deutsche-card.png"
-              title="Empowering Every User: Solving Accessibility Challenges in Smart Home Technology"
-              brand="Deutsche Telekom"
-            />
-          </div>
-        </section>
       </div>
+      {/* More Projects */}
+      <section className="mt-32 container max-w-240">
+        <HeadingText>More Projects</HeadingText>
+        <div className="mt-2 w-full h-[1px] bg-primary" />
+
+        <div className="mt-8 grid auto-fit-[300px] gap-6">
+          <Card
+            image="/myysports-card.png"
+            title="Reimagining the experience of the product for all users to increase engagement and enhance value proposition"
+            brand="MyySports"
+          />
+
+          <Card
+            image="/deutsche-card.png"
+            title="Empowering Every User: Solving Accessibility Challenges in Smart Home Technology"
+            brand="Deutsche Telekom"
+          />
+        </div>
+      </section>
     </div>
   );
 }
