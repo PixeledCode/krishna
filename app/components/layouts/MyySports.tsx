@@ -271,24 +271,25 @@ export default function Work() {
                     application when the user gets onboarded.
                   </ResearchCard>
                   <ResearchCard>
-                    Lack of clarity and understanding of the purpose of the
-                    application when the user gets onboarded.
+                    Teams, matches, tournaments are mostly created by the
+                    streamer/scorer. Hence there are multiple profiles of the
+                    same team.
                   </ResearchCard>
                   <ResearchCard>
-                    Lack of clarity and understanding of the purpose of the
-                    application when the user gets onboarded.
+                    Overall statistics for a player are not represented well and
+                    aren’t shareable.
                   </ResearchCard>
                   <ResearchCard>
-                    Lack of clarity and understanding of the purpose of the
-                    application when the user gets onboarded.
+                    Difficulty in navigating to find matches and tournaments
+                    within their city or locality.
                   </ResearchCard>
                   <ResearchCard>
-                    Lack of clarity and understanding of the purpose of the
-                    application when the user gets onboarded.
+                    No feel of a community, no space for creating groups to
+                    discuss sports.
                   </ResearchCard>
                   <ResearchCard>
-                    Lack of clarity and understanding of the purpose of the
-                    application when the user gets onboarded.
+                    Captivating sports content is missing to keep the user
+                    engaged.
                   </ResearchCard>
                 </div>
                 <Image
